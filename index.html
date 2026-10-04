@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="M Bindhu — Computer Science & Design student, full-stack developer and AI/ML enthusiast based in Bengaluru.">
+  <title>M Bindhu | Software Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="header">
+    <nav class="nav container">
+      <a href="#home" class="brand" aria-label="M Bindhu home">
+        <span class="brand-mark">MB</span>
+        <span>M Bindhu</span>
+      </a>
+
+      <button class="menu-button" id="menuButton" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-button" id="themeButton" aria-label="Toggle theme">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="availability"><span></span> Open to opportunities</div>
+          <p class="kicker">COMPUTER SCIENCE & DESIGN · BENGALURU</p>
+          <h1>Building <em>useful</em> software with code, creativity and AI.</h1>
+          <p class="hero-text">
+            I’m M Bindhu, a Computer Science & Design student focused on full-stack development,
+            AI/ML and responsive user experiences.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
+            <a class="button secondary" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-links">
+            <a href="mailto:bindhu07062005@gmail.com">bindhu07062005@gmail.com</a>
+            <span>·</span>
+            <a href="https://linkedin.com/in/bindhu-m-57b00a332" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a href="https://github.com/MBindhu07" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-panel reveal">
+          <div class="panel-glow"></div>
+          <div class="terminal">
+            <div class="terminal-head">
+              <div class="window-dots"><i></i><i></i><i></i></div>
+              <span>bindhu.dev</span>
+              <span class="terminal-status">●</span>
+            </div>
+            <div class="terminal-body">
+              <p><span class="code-purple">const</span> developer = {</p>
+              <p class="indent"><span class="code-blue">name</span>: <span class="code-green">"M Bindhu"</span>,</p>
+              <p class="indent"><span class="code-blue">degree</span>: <span class="code-green">"CSE & Design"</span>,</p>
+              <p class="indent"><span class="code-blue">focus</span>: [</p>
+              <p class="indent2"><span class="code-green">"Full-Stack"</span>,</p>
+              <p class="indent2"><span class="code-green">"AI / ML"</span>,</p>
+              <p class="indent2"><span class="code-green">"UI / UX"</span></p>
+              <p class="indent">],</p>
+              <p class="indent"><span class="code-blue">location</span>: <span class="code-green">"Bengaluru"</span>,</p>
+              <p class="indent"><span class="code-blue">status</span>: <span class="code-green">"Learning & building"</span></p>
+              <p>};</p>
+              <p class="cursor-line"><span>›</span> <span class="blink">_</span></p>
+            </div>
+          </div>
+          <div class="stat-card stat-a"><strong>2023–27</strong><span>B.E. Journey</span></div>
+          <div class="stat-card stat-b"><strong>3+</strong><span>Internship experiences</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-label reveal">01 / ABOUT</div>
+        <div class="about-grid">
+          <div class="section-title reveal">
+            <h2>Turning ideas into <span>working products.</span></h2>
+          </div>
+          <div class="about-copy reveal">
+            <p class="large">I’m currently pursuing a Bachelor of Engineering in Computer Science & Design at Atria Institute of Technology, Bengaluru.</p>
+            <p>My work combines frontend development, backend engineering and applied AI/ML. I enjoy building complete solutions — from database design and APIs to responsive interfaces and intelligent features.</p>
+            <p>Through internships, hackathons and academic projects, I’ve worked with real development workflows and explored how technology can solve practical problems.</p>
+            <div class="about-facts">
+              <div><span>University</span><strong>VTU</strong></div>
+              <div><span>Location</span><strong>Bengaluru, India</strong></div>
+              <div><span>Graduation</span><strong>2027</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-label reveal">02 / TECHNICAL SKILLS</div>
+        <div class="skills-heading reveal">
+          <h2>My technical <span>toolkit.</span></h2>
+          <p>Technologies and areas directly reflected in my resume.</p>
+        </div>
+        <div class="skills-layout">
+          <article class="skill-card reveal">
+            <div class="skill-number">01</div>
+            <h3>Languages</h3>
+            <div class="pills"><span>Java</span><span>Python</span><span>C</span><span>JavaScript</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-number">02</div>
+            <h3>Frontend</h3>
+            <div class="pills"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Bootstrap</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-number">03</div>
+            <h3>Backend & Frameworks</h3>
+            <div class="pills"><span>Node.js</span><span>Express.js</span><span>PHP</span><span>Laravel</span><span>Flask</span><span>REST APIs</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-number">04</div>
+            <h3>AI & Machine Learning</h3>
+            <div class="pills"><span>Computer Vision</span><span>Deep Learning</span><span>Multimodal Classification</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-number">05</div>
+            <h3>Databases</h3>
+            <div class="pills"><span>MySQL</span><span>MongoDB</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-number">06</div>
+            <h3>Tools & Platforms</h3>
+            <div class="pills"><span>Git</span><span>GitHub</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-label reveal">03 / PROJECTS</div>
+        <div class="section-row reveal">
+          <h2>Selected <span>projects.</span></h2>
+          <p>Projects from academic work, internships and hackathons.</p>
+        </div>
+
+        <div class="projects">
+          <article class="project featured-project reveal">
+            <div class="project-number">01</div>
+            <div class="project-visual safeai">
+              <div class="visual-grid"></div>
+              <div class="visual-icon">⌁</div>
+              <span>SAFEAI<br>DRIVE</span>
+            </div>
+            <div class="project-info">
+              <div class="project-type">AI / MACHINE LEARNING · AUG 2025</div>
+              <h3>SafeAI Drive</h3>
+              <p>AI-powered road safety and accident prevention system that detects risky driving behavior and predicts potential accidents using computer vision and machine learning, surfacing real-time alerts to the driver.</p>
+              <div class="project-tags"><span>Computer Vision</span><span>Machine Learning</span><span>Real-time Alerts</span></div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-number">02</div>
+            <div class="project-visual multimodal">
+              <div class="orbit orbit-1"></div><div class="orbit orbit-2"></div><div class="orbit orbit-3"></div>
+              <span>MULTI<br>MODAL</span>
+            </div>
+            <div class="project-info">
+              <div class="project-type">DEEP LEARNING · SEP 2025</div>
+              <h3>AI-Generated Attack Detection</h3>
+              <p>Multimodal deep learning system detecting AI-generated content across text, audio and image inputs for cybersecurity analysis, using separate feature-extraction pipelines and a unified classifier.</p>
+              <div class="project-tags"><span>Deep Learning</span><span>Multimodal</span><span>Classification</span></div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-number">03</div>
+            <div class="project-visual blog">
+              <div class="browser-card"><span>POST</span><b>Blog Platform</b><small>Users · Posts · Comments</small></div>
+            </div>
+            <div class="project-info">
+              <div class="project-type">1STOP INTERNSHIP · SEP–NOV 2025</div>
+              <h3>Multi-User Blogging Platform</h3>
+              <p>Multi-user blogging platform built with PHP, MySQL and Bootstrap 4 featuring role-based authentication, CRUD post management and comment moderation.</p>
+              <div class="project-tags"><span>PHP</span><span>MySQL</span><span>Bootstrap 4</span></div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-number">04</div>
+            <div class="project-visual ecology">
+              <div class="map-pin">⌖</div><div class="map-lines"></div>
+              <span>INDIAN<br>ECOLOGY</span>
+            </div>
+            <div class="project-info">
+              <div class="project-type">SMART INDIA HACKATHON · DEC 2024</div>
+              <h3>INDIAN Ecology & Tourism Web App</h3>
+              <p>Single-page sustainable-tourism web app built within a 24-hour hackathon, integrating a map API for location-based ecotourism site discovery with animated, sustainability-focused UX.</p>
+              <div class="project-tags"><span>Web Development</span><span>Map API</span><span>UX</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-label reveal">04 / EXPERIENCE</div>
+        <div class="section-row reveal">
+          <h2>Where I’ve <span>worked.</span></h2>
+          <p>Hands-on development experience across backend, frontend, graphics and full-stack projects.</p>
+        </div>
+
+        <div class="experience-list">
+          <article class="experience-item reveal">
+            <div class="experience-date">SEP 2025<br>— NOV 2025</div>
+            <div class="experience-main">
+              <div class="experience-top"><h3>Back-End Web Development Intern</h3><span>Remote</span></div>
+              <p class="company">1Stop</p>
+              <ul>
+                <li>Built a PHP and MySQL to-do list and blogging application with full CRUD functionality, from schema design through UI.</li>
+                <li>Integrated REST APIs with Laravel and MySQL to handle end-to-end booking-request workflows.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="experience-item reveal">
+            <div class="experience-date">AUG 2025<br>— SEP 2025</div>
+            <div class="experience-main">
+              <div class="experience-top"><h3>Frontend Web Development Intern</h3><span>Remote</span></div>
+              <p class="company">SNESTRON Systems Pvt. Ltd.</p>
+              <ul>
+                <li>Designed and built a responsive personal portfolio website in HTML, CSS, JavaScript and Bootstrap for desktop and mobile.</li>
+                <li>Implemented interactive UI components and applied image optimization and lazy loading to improve page-load performance.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="experience-item reveal">
+            <div class="experience-date">MAR 2025</div>
+            <div class="experience-main">
+              <div class="experience-top"><h3>Computer Graphics & Full Stack Development Intern</h3><span>Bengaluru</span></div>
+              <p class="company">Rotaract Club of Atria I.T.</p>
+              <ul>
+                <li>Built 2D/3D graphics using OpenGL, implementing rendering pipelines, geometric transformations, lighting and texturing.</li>
+                <li>Built a Food Delivery Tracker using HTML, CSS, JavaScript, jQuery, Node.js, Express.js, MySQL and MongoDB, handling order data end to end.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-label reveal">05 / EDUCATION</div>
+        <div class="education-card reveal">
+          <div class="edu-mark">AIT</div>
+          <div class="edu-content">
+            <p class="kicker">2023 — 2027 · VTU</p>
+            <h2>Atria Institute of Technology</h2>
+            <h3>Bachelor of Engineering in Computer Science & Design</h3>
+            <p>Bengaluru, India</p>
+          </div>
+          <div class="edu-year">BE<br><span>CSE & DESIGN</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section achievements-section">
+      <div class="container">
+        <div class="section-label reveal">06 / ACHIEVEMENTS & CERTIFICATIONS</div>
+        <div class="achievements-grid">
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">✦</div>
+            <h3>Certifications</h3>
+            <ul>
+              <li>Gen-AI Camp — AlgoUniversity</li>
+              <li>UI/UX Course — Tutedude</li>
+              <li>Python Essentials 1 — Cisco</li>
+              <li>Python 101 for Data Science — IBM</li>
+              <li>Deloitte Data Analytics Simulation — Forage</li>
+            </ul>
+          </article>
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">⌁</div>
+            <h3>Hackathons</h3>
+            <ul>
+              <li>AIT Ideathon 2025</li>
+              <li>Cypher 3.0 — 2025</li>
+              <li>Cypher 2.0 — 2024</li>
+              <li>Cryptic 2.0 — IEEE AIT Crop Yield Prediction ML</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-wrap reveal">
+          <div>
+            <div class="section-label">07 / CONTACT</div>
+            <h2>Have an opportunity?<br><span>Let’s connect.</span></h2>
+            <p>For internships, projects or professional opportunities, feel free to reach out by email or connect through LinkedIn.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="contact-email" href="mailto:bindhu07062005@gmail.com">bindhu07062005@gmail.com <span>↗</span></a>
+            <div class="social-row">
+              <a href="https://linkedin.com/in/bindhu-m-57b00a332" target="_blank" rel="noopener">LinkedIn ↗</a>
+              <a href="https://github.com/MBindhu07" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="brand"><span class="brand-mark">MB</span><span>M Bindhu</span></a>
+      <p>Computer Science & Design · Bengaluru, India</p>
+      <p>© <span id="year"></span> M Bindhu</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
